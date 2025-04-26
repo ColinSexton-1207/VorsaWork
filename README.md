@@ -38,7 +38,7 @@
 
 ### Documentation
 - [Architecture](docs/architecture.md)
-- [Kanban Board](GitHub Projects tab)
+- [Kanban Board](https://github.com/users/ColinSexton-1207/projects/2)
 - [Deployment (coming soon)]()
 
 ### Author
