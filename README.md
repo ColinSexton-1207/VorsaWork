@@ -40,6 +40,7 @@
 - [Architecture](docs/architecture.md)
 - [Kanban Board](https://github.com/users/ColinSexton-1207/projects/2)
 - [Deployment (coming soon)]()
+- [Markdown Testing](https://stackedit.io/)
 
 ### Author
-Built by Colin Sexton
+Built by **Colin Sexton**.

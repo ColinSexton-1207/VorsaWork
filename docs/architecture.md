@@ -13,36 +13,36 @@
 
 ### Backend (Microservices)
 - **Auth Service**
-&nbsp;&nbsp;&nbsp;- OAuth2 / JWT-based Authentication
-&nbsp;&nbsp;&nbsp;- User Registration & Login APIs
+  - OAuth2 / JWT-based Authentication
+  - User Registration & Login APIs
 - **User Service**
-&nbsp;&nbsp;&nbsp;- User Profiles, Freelancer Details
-&nbsp;&nbsp;&nbsp;- Profile Update & Retrieval
+  - User Profiles, Freelancer Details
+  - Profile Update & Retrieval
 - **Gig Service**
-&nbsp;&nbsp;&nbsp;- Gig Posting, Searching, and Management
-&nbsp;&nbsp;&nbsp;- Proposal Submissions
+  - Gig Posting, Searching, and Management
+  - Proposal Submissions
 - **Message Service**
-&nbsp;&nbsp;&nbsp;- Direct User Messaging
-&nbsp;&nbsp;&nbsp;- Notification System
+  - Direct User Messaging
+  - Notification System
 - **Payment Service**
-&nbsp;&nbsp;&nbsp;- Payment Processing (future Stripe/PayPal integration)
-&nbsp;&nbsp;&nbsp;- Invoicing and Transaction Tracking
+  - Payment Processing (future Stripe/PayPal integration)
+  - Invoicing and Transaction Tracking
 - **Analytics Service**
-&nbsp;&nbsp;&nbsp;- Metrics Collection
-&nbsp;&nbsp;&nbsp;- Reporting and Usage Insights
+  - Metrics Collection
+  - Reporting and Usage Insights
 - **Admin Service**
-&nbsp;&nbsp;&nbsp;- Admin Portal
-&nbsp;&nbsp;&nbsp;- Moderation of Users, Gigs, and Security Enforcement
+  - Admin Portal
+  - Moderation of Users, Gigs, and Security Enforcement
 
-**Backend Stack:** > Java 21, Spring Boot, Spring Security, Spring Data, PostgreSQL
+**Backend Stack:** Java 21, Spring Boot, Spring Security, Spring Data, PostgreSQL
 
 ### Frontend
 - **Web Application**
-&nbsp;&nbsp;&nbsp;- Built w/ React.js + Next.js
-&nbsp;&nbsp;&nbsp;- Server-Side Rendering (SSR) for SEO and Performance
-&nbsp;&nbsp;&nbsp;- Responsive, mobile-first design
+  - Built w/ React.js + Next.js
+  - Server-Side Rendering (SSR) for SEO and Performance
+  - Responsive, mobile-first design
 
-**Frontend Stack:** > React.js, Next.js, TailwindCSS or Bootstrap
+**Frontend Stack:** React.js, Next.js, TailwindCSS or Bootstrap
 
 ### Infrastructure
 - **Containerization:** Docker
@@ -60,10 +60,10 @@
 ### Deployment Strategy
 - Multi-Stage Docker Builds for Optimized Images
 - Kubernetes Manifests and Helm Charts
-- Environment Seperation:
-&nbsp;&nbsp;&nbsp;- `dev`
-&nbsp;&nbsp;&nbsp;- `staging`
-&nbsp;&nbsp;&nbsp;- `prod`
+- Environment Separation:
+  - `dev`
+  - `staging`
+  - `prod`
 
 ### Logging & Observability
 - Centralized Logging (Loki or ELK)

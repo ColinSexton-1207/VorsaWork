@@ -2,9 +2,9 @@
 
 ## CI/CD
 - GitHub Actions workflow per push to `main`:
-&nbsp;&nbsp;&nbsp;- Runs tests
-&nbsp;&nbsp;&nbsp;- Builds Docker images
-&nbsp;&nbsp;&nbsp;- Pushes to container registry **(later)**
+  - Runs tests
+  - Builds Docker images
+  - Pushes to container registry **(later)**
 
 ## Containerization
 - Each service has a `Dockerfile`

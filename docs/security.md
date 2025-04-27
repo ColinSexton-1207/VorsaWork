@@ -2,13 +2,13 @@
 
 ## Authentication
 - **Login Options:**
-&nbsp;&nbsp;&nbsp;- Email/Password (w/ JWT issued)
-&nbsp;&nbsp;&nbsp;- Google OAuth2 (via Spring Security)
+  - Email/Password (w/ JWT issued)
+  - Google OAuth2 (via Spring Security)
 
 - **JWT Contents:**
-&nbsp;&nbsp;&nbsp;- `sub` = userId
-&nbsp;&nbsp;&nbsp;- `roles` = ROLE_USER / ROLE_ADMIN
-&nbsp;&nbsp;&nbsp;- `exp` = token expiration
+  - `sub` = userId
+  - `roles` = ROLE_USER / ROLE_ADMIN
+  - `exp` = token expiration
 
 ## Authorization
 - Role-based access control (RBAC)
